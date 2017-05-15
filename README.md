@@ -14,7 +14,7 @@ $ vagrant up
 $ vagrant ssh
 $ cd /vagrant
 ```
-2. Setup and load the data.
+2. Download the data [here](https://d17h27t6h515a5.cloudfront.net/topher/2016/August/57b5f748_newsdata/newsdata.zip). Unzip this file after downloading it. The file inside is called *newsdata.sql*. Put this file into the vagrant directory, which is shared with the virtual machine. Setup and load the data.
 ```
 ubuntu@ubuntu-xenial:~$ cd /vagrant
 ubuntu@ubuntu-xenial:/vagrant$ psql -d news -f newsdata.sql
