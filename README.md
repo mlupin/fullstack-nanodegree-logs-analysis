@@ -25,7 +25,7 @@ ubuntu@ubuntu-xenial:/vagrant$ psql -d news
 ```
 4. Run the code print results
 ```sh
-ubuntu@ubuntu-xenial:/vagrant$ python project.py
+ubuntu@ubuntu-xenial:/vagrant$ python newsdata.py
 ```
 
 ### Create Views
